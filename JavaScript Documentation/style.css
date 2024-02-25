@@ -1,0 +1,84 @@
+html, body{
+    height: max-content;
+    background-color: rgb(255, 255, 255);
+}
+body{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    gap: 20px;
+    color: #333;
+    font-weight: 100;
+    font-size: small;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+main{
+    margin: 5px 0 50px 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+}
+nav{
+    display: flex;
+    width: 210px;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    border-right: 3px solid rgba(0, 22, 22, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    height: 100%;
+    font-size: 13px;
+}
+header{
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+    color: #333;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+}
+code{
+    background-color: rgb(247, 247, 247);
+    color: rgb(77, 78, 83);
+    padding: 15px;
+    font-weight: 100;
+    font-size: x-small;
+    margin: 10px;
+}
+nav header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        display: none;
+    }
+}
